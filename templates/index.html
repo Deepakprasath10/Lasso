@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rent Price Predictor</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Predict House Rent</h2>
+        <form method="POST" action="/predict">
+            <input type="number" name="area" placeholder="Area (sq ft)" required><br>
+            <input type="number" name="bedrooms" placeholder="Bedrooms" required><br>
+            <input type="number" name="bathrooms" placeholder="Bathrooms" required><br>
+            <select name="location" required>
+                <option value="Whitefield">Whitefield</option>
+                <option value="Indiranagar">Indiranagar</option>
+                <option value="Marathahalli">Marathahalli</option>
+                <option value="HSR Layout">HSR Layout</option>
+                <option value="BTM">BTM</option>
+                <option value="Electronic City">Electronic City</option>
+            </select><br>
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+</body>
+</html>
