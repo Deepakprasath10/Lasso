@@ -1,19 +1,20 @@
 # House Rent Price Predictor (Lasso Regression)
-    A machine learning-powered web application that predicts monthly house rent prices based on various features such as number of bedrooms, size, furnishing status, location, and more. Built using Lasso Regression and deployed with Flask.
+   
+ A machine learning-powered web application that predicts monthly house rent prices based on various features such as number of bedrooms, size, furnishing status, location, and more. Built using Lasso Regression and deployed with Flask.
+---
+## Features  
+Predicts rent prices using a trained Lasso Regression model
 
-## Features
-    Predicts rent prices using a trained Lasso Regression model
+ML model trained with real-world housing data
 
-    ML model trained with real-world housing data
+User-friendly web interface built with HTML + CSS
 
-    User-friendly web interface built with HTML + CSS
+Responsive UI for desktops and tablets
 
-    Responsive UI for desktops and tablets
+Uses joblib for model persistence and prediction
 
-    Uses joblib for model persistence and prediction
-
-    Clean and production-ready code structure
-
+Clean and production-ready code structure
+---
 ## Tech Stack
 Frontend: HTML, CSS (Custom Styled)
 
